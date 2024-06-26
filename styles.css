@@ -12,11 +12,22 @@ body {
     flex-direction: column;
     align-items: center;
     width: 80%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: auto;
     padding: 20px;
     background: white;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.text-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.text-block h2 {
+    margin-bottom: 10px;
 }
 
 textarea {
@@ -29,6 +40,14 @@ textarea {
     border-radius: 5px;
 }
 
+#inputText {
+    margin-right: 10px;
+}
+
+#outputText {
+    margin-left: 10px;
+}
+
 button {
     padding: 10px 20px;
     font-size: 16px;
@@ -37,7 +56,7 @@ button {
     background-color: #007BFF;
     color: white;
     cursor: pointer;
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 button:hover {
@@ -45,11 +64,10 @@ button:hover {
 }
 
 button.blink {
-    animation: blink-animation 0.2s 2;
+    animation: blink-animation 0.5s 1;
 }
 
 @keyframes blink-animation {
-    0% { background-color: #007BFF; }
-    50% { background-color: #0056b3; }
-    100% { background-color: #007BFF; }
+    0% { box-shadow: 0 0 5px 5px green; }
+    100% { box-shadow: none; }
 }
