@@ -64,7 +64,7 @@ button:hover {
 }
 
 button.blink {
-    animation: blink-animation 0.5s 1;
+    animation: blink-animation 0.9s 1;
 }
 
 @keyframes blink-animation {
