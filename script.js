@@ -1,7 +1,7 @@
 document.getElementById('inputText').addEventListener('input', () => {
     let inputText = document.getElementById('inputText').value;
     // Replace multiple \n in a row with >
-    inputText = inputText.replace(/\n+/g, '>');
+    inputText = inputText.replace(/(\n{2,})/g, '>');
     // Replace single \n with \n\n
     const outputText = inputText.replace(/\n/g, '\n\n');
     document.getElementById('outputText').value = outputText;
