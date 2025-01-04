@@ -98,7 +98,7 @@
       let outputText = inputText.split("\n").map(line => {
         // Replace empty lines with ". "
         if (line.trim() === "") {
-          return ".  ";
+          return ".  \n";
         }
         // Ensure exactly two spaces before "\n"
         return line.replace(/\s*$/, "  ");
