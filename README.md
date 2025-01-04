@@ -1,5 +1,5 @@
-Web tool for splitting/converting large text block into separate Notion lines.
-It replaces \n with \n\n
-and multiple \n with >, which in Notion looks like this (because I haven't yet found a way to create an empty text block when copying into Notion)
+Simple tool to format text into separate Notion blocks. Just paste your text, and copy the output to your Notion.  
 
-<img width="433" alt="Screenshot 2024-06-29 at 13 10 56" src="https://github.com/shiyanalex/Notion/assets/124923710/627d8623-309e-428f-b4a2-765bfcf0b6df">
+How it works: It adds two spaces before each hidden newline character (\n), which tells Notion to end current block.
+
+**PS.** Since there’s no way to create truly empty blocks, I’ve decided to use period (`.`) as a placeholder
