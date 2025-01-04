@@ -4,9 +4,7 @@ document.getElementById('inputText').addEventListener('input', () => {
     // Replace multiple \n in a row with ".  "
     inputText = inputText.replace(/(\n{2,})/g, '.  ');
 
-    // Replace single \n with \n\n and add 2 spaces at the end of each line
     const outputText = inputText
-        .replace(/\n/g, '\n\n') // Ensure double newlines
         .replace(/([^\s])$/gm, '$1  '); // Add 2 spaces at the end of each line
 
     document.getElementById('outputText').value = outputText;
