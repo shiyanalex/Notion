@@ -5,6 +5,12 @@ It adds two spaces before each hidden newline character (\n), which tells Notion
 
 Here is simple example of how it works:
 
+
+
+https://github.com/user-attachments/assets/67bf22c8-3b13-421f-a2b4-4eb5c1feba03
+
+
+
 **Without tool:**
 
 <img width="566" alt="Screenshot 2025-01-05 at 01 40 20" src="https://github.com/user-attachments/assets/8d31b79f-e9f6-4057-a8b4-8c4de28c9915" />
